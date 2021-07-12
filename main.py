@@ -25,7 +25,7 @@ def world(update, context):
     update.message.reply_text(
         'Dunyo belgilandi', reply_markup=buttons
     )
-updater = Updater('1854074920:AAHlkvTYzL-l8YwhqLAbW8pGGjW_8CqGs3M', use_context=True)
+updater = Updater('1854074920:AAHlkvTYzL-l8YwhqLAbW88CqGs3M', use_context=True)
 conv_handler = ConversationHandler(
     entry_points=[CommandHandler('start', start)],
     states={
